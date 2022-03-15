@@ -9,14 +9,9 @@
   display: grid;
   height: 150vh;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.7fr 1.4fr 4.0fr 2.0fr 2.0fr 1.5fr 1fr;
     grid-template-areas:
-      "nav"
-      "sidebar"
+      "header"
       "main"
-      "content1"
-      "content2"
-      "content3"
       "footer";
   grid-gap: 0.5rem;
   font-weight: 800;
@@ -30,6 +25,7 @@
 	  padding: 0;
 	  margin: 0;
 	  height: 100%;
+	  background-size: cover;
 	}
 	header{
 		grid-template-columns: 1fr;
@@ -75,7 +71,7 @@
 	  z-index: 999;
 	  height: 80px;
 	  width: 300px;
-	  background: #1b1b1b;
+	  background: #3C2447;
 	  border-radius: 10px;
 	}
 	.display #time{
@@ -84,9 +80,9 @@
 	  line-height: 150px;
 	  color: #ffffff;
 	  text-align: center;
-	  font-size: 5opx;
+	  letter-spacing: 2px;
+	 font-size: 50px;
 	  font-weight: 600;
-	  letter-spacing: 1px;
 	  background: linear-gradient(135deg, #FFFEF7, #B380FF, #FFFEF7);
 	  -webkit-background-clip: text;
 	  -webkit-text-fill-color: transparent;
@@ -120,7 +116,6 @@
   .container {
     grid-template-columns: 1fr 1fr 1fr;
 	height: 200vh;
-    grid-template-rows: 0.07fr 0.5fr 0.4fr;
     grid-template-areas:
       "header header header"
       "main main main"
@@ -137,6 +132,7 @@
 	h1{
 		font-size: 48px;
 		margin-top:2em;
+		text-align: center;
 
 	}
 
@@ -166,18 +162,18 @@
 	  z-index: 999;
 	  height: 90px;
 	  width: 450px;
-	  background: #ffffff;
+	  background: #3C2447;
 	  border-radius: 6px;
 	}
 	.display #time{
 		margin-top:-35px;
 	  width: 100%;
 	  line-height: 150px;
-	  color: #fff;
+	  color: #ffffff;
 	  text-align: center;
-	  font-size: 60px;
-	  font-weight: 600;
 	  letter-spacing: 1px;
+	 font-size: 60px;
+	  font-weight: 600;
 	  background: linear-gradient(135deg, #FFFEF7, #B380FF, #FFFEF7);
 	  -webkit-background-clip: text;
 	  -webkit-text-fill-color: transparent;
@@ -193,7 +189,6 @@
   .container {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	height: 100vh;
-    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.5fr;
     grid-template-areas:
 
     "header header header header header"
@@ -241,17 +236,17 @@
 	  z-index: 999;
 	  height: 120px;
 	  width: 800px;
-	  background: #1b1b1b;
+	  background: #3C2447;
 	  border-radius: 10px;
 	}
 	.display #time{
 	 margin-top:-20px;
 	  width: 100%;
 	  line-height: 150px;
-	  color: #fff;
-	  font-size: 110px;
-	  font-weight: 600;
+	  color: #ffffff;
 	  letter-spacing: 1px;
+	 font-size: 110px;
+	  font-weight: 600;
 	  background: linear-gradient(135deg, #FFFEF7, #B380FF, #FFFEF7);
 	  -webkit-background-clip: text;
 	  -webkit-text-fill-color: transparent;
