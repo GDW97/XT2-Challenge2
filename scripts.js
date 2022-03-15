@@ -24,7 +24,7 @@
 
 function updateBackground() {
   var hr = (new Date()).getHours();   
-  if (hr < 12) {
+  if (hr < 9) {
     document.getElementsByTagName("body")[0].style.backgroundImage = "url('images/morning.jpg')";
   
 
