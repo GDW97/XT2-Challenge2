@@ -3,7 +3,7 @@
 *{
 	font-family: 'Smooch Sans', sans-serif;
 }
-/*------------------------------- mobile ------------------------------- */
+/*mobiel */
 @media only screen and (min-width: 375px){
 .container {
   display: grid;
@@ -82,7 +82,7 @@
 		margin-top:-35px;
 	  width: 100%;
 	  line-height: 150px;
-	  color: #fff;
+	  color: #ffffff;
 	  text-align: center;
 	  font-size: 5opx;
 	  font-weight: 600;
@@ -115,7 +115,7 @@
 
 	
 
-/* ----------------- ipad ---------------------- */
+/* ipad */
 @media only screen and (min-width: 560px ) {
   .container {
     grid-template-columns: 1fr 1fr 1fr;
@@ -166,7 +166,7 @@
 	  z-index: 999;
 	  height: 90px;
 	  width: 450px;
-	  background: #1b1b1b;
+	  background: #ffffff;
 	  border-radius: 6px;
 	}
 	.display #time{
@@ -188,7 +188,7 @@
 
 
 
-/*------------------------------- groot scherm ------------------------------- */
+/*groot scherm*/
 @media only screen and (min-width: 1250px) {
   .container {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
